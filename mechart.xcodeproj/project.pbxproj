@@ -1,0 +1,948 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DA4117B2220506C002D7147 /* CClient.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DA4117A2220506C002D7147 /* CClient.mm */; };
+		7DA4117D2220507F002D7147 /* CClients.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7DA4117C2220507F002D7147 /* CClients.mm */; };
+		DCDAF6B121E472AC006C50D2 /* mechart.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6AF21E472AC006C50D2 /* mechart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF75021E477D7006C50D2 /* CWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6B721E477B5006C50D2 /* CWindow.mm */; };
+		DCDAF75121E477D7006C50D2 /* CBandedGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6B821E477B6006C50D2 /* CBandedGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF75221E477D7006C50D2 /* CSpin.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6B921E477B6006C50D2 /* CSpin.mm */; };
+		DCDAF75321E477D7006C50D2 /* CHScrollBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6BA21E477B6006C50D2 /* CHScrollBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF75421E477D7006C50D2 /* CGridBand.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6BB21E477B6006C50D2 /* CGridBand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF75521E477D7006C50D2 /* CHScale.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6BC21E477B6006C50D2 /* CHScale.mm */; };
+		DCDAF75621E477D7006C50D2 /* CGroupBox.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6BD21E477B6006C50D2 /* CGroupBox.mm */; };
+		DCDAF75721E477D7006C50D2 /* CDay.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6BE21E477B6006C50D2 /* CDay.mm */; };
+		DCDAF75821E477D7006C50D2 /* CProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6BF21E477B6006C50D2 /* CProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF75921E477D7006C50D2 /* CClients.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6C021E477B6006C50D2 /* CClients.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF75A21E477D7006C50D2 /* CButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6C121E477B6006C50D2 /* CButton.mm */; };
+		DCDAF75B21E477D7006C50D2 /* CDateTimePicker.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6C221E477B7006C50D2 /* CDateTimePicker.mm */; };
+		DCDAF75C21E477D7006C50D2 /* CGridRow.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6C321E477B7006C50D2 /* CGridRow.mm */; };
+		DCDAF75D21E477D7006C50D2 /* CHeadDiv.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6C421E477B7006C50D2 /* CHeadDiv.mm */; };
+		DCDAF75E21E477D7006C50D2 /* CYears.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6C521E477B7006C50D2 /* CYears.mm */; };
+		DCDAF75F21E477D7006C50D2 /* CControlHost.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6C621E477B7006C50D2 /* CControlHost.mm */; };
+		DCDAF76021E477D7006C50D2 /* CScaleGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6C721E477B7006C50D2 /* CScaleGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF76121E477D7006C50D2 /* CMenu.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6C821E477B7006C50D2 /* CMenu.mm */; };
+		DCDAF76221E477D7006C50D2 /* CPlotBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6C921E477B7006C50D2 /* CPlotBase.mm */; };
+		DCDAF76321E477D7006C50D2 /* CSelectArea.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6CA21E477B8006C50D2 /* CSelectArea.mm */; };
+		DCDAF76421E477D7006C50D2 /* CDiv.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6CB21E477B8006C50D2 /* CDiv.mm */; };
+		DCDAF76521E477D7006C50D2 /* CYearButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6CC21E477B8006C50D2 /* CYearButton.mm */; };
+		DCDAF76621E477D7006C50D2 /* CLabel.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6CD21E477B8006C50D2 /* CLabel.mm */; };
+		DCDAF76721E477D7006C50D2 /* CNativeBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6CE21E477B8006C50D2 /* CNativeBase.mm */; };
+		DCDAF76821E477D7006C50D2 /* CCrossLine.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6CF21E477B9006C50D2 /* CCrossLine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF76921E477D7006C50D2 /* CCrossLine.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6D021E477B9006C50D2 /* CCrossLine.mm */; };
+		DCDAF76A21E477D7006C50D2 /* CTimeDiv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6D121E477BA006C50D2 /* CTimeDiv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF76B21E477D7006C50D2 /* CWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6D221E477BA006C50D2 /* CWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF76C21E477D7006C50D2 /* CRadioButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6D321E477BA006C50D2 /* CRadioButton.mm */; };
+		DCDAF76D21E477D7006C50D2 /* CPExtend.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6D421E477BB006C50D2 /* CPExtend.mm */; };
+		DCDAF76E21E477D7006C50D2 /* CTitleBar.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6D521E477BB006C50D2 /* CTitleBar.mm */; };
+		DCDAF76F21E477D7006C50D2 /* CYearDiv.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6D621E477BB006C50D2 /* CYearDiv.mm */; };
+		DCDAF77021E477D7006C50D2 /* CBandedGridColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6D721E477BC006C50D2 /* CBandedGridColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77121E477D7006C50D2 /* CGridColumn.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6D821E477BC006C50D2 /* CGridColumn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77221E477D7006C50D2 /* CBaseShape.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6D921E477BC006C50D2 /* CBaseShape.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77321E477D7006C50D2 /* ToolTip.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6DA21E477BC006C50D2 /* ToolTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77421E477D7006C50D2 /* CYearButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6DB21E477BD006C50D2 /* CYearButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77521E477D7006C50D2 /* CYear.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6DC21E477BD006C50D2 /* CYear.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77621E477D7006C50D2 /* CGridColumn.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6DD21E477BD006C50D2 /* CGridColumn.mm */; };
+		DCDAF77721E477D7006C50D2 /* CDayButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6DE21E477BD006C50D2 /* CDayButton.mm */; };
+		DCDAF77821E477D7006C50D2 /* CControlHost.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6DF21E477BD006C50D2 /* CControlHost.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77921E477D7006C50D2 /* CVScale.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6E021E477BE006C50D2 /* CVScale.mm */; };
+		DCDAF77A21E477D7006C50D2 /* CChart.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6E121E477BE006C50D2 /* CChart.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77B21E477D7006C50D2 /* CArrowButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6E221E477BE006C50D2 /* CArrowButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77C21E477D7006C50D2 /* CGroupBox.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6E321E477BE006C50D2 /* CGroupBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF77E21E477D7006C50D2 /* CGrid.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6E521E477BF006C50D2 /* CGrid.mm */; };
+		DCDAF77F21E477D7006C50D2 /* CHeadDiv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6E621E477BF006C50D2 /* CHeadDiv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF78021E477D7006C50D2 /* CCheckBox.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6E721E477BF006C50D2 /* CCheckBox.mm */; };
+		DCDAF78121E477D7006C50D2 /* CPaint.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6E821E477BF006C50D2 /* CPaint.mm */; };
+		DCDAF78221E477D7006C50D2 /* CMenuItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6E921E477C0006C50D2 /* CMenuItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF78321E477D7006C50D2 /* CDayDiv.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6EA21E477C0006C50D2 /* CDayDiv.mm */; };
+		DCDAF78421E477D7006C50D2 /* CTabPage.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6EB21E477C0006C50D2 /* CTabPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF78521E477D7006C50D2 /* CTextBox.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6EC21E477C1006C50D2 /* CTextBox.mm */; };
+		DCDAF78621E477D7006C50D2 /* CTimeDiv.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6ED21E477C1006C50D2 /* CTimeDiv.mm */; };
+		DCDAF78721E477D7006C50D2 /* CTable.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6EE21E477C1006C50D2 /* CTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF78821E477D7006C50D2 /* ToolTip.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6EF21E477C2006C50D2 /* ToolTip.mm */; };
+		DCDAF78921E477D7006C50D2 /* CNativeBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6F021E477C2006C50D2 /* CNativeBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF78A21E477D7006C50D2 /* CDateTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6F121E477C2006C50D2 /* CDateTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF78B21E477D7006C50D2 /* CTree.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6F221E477C3006C50D2 /* CTree.mm */; };
+		DCDAF78C21E477D7006C50D2 /* CLayoutDiv.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6F321E477C3006C50D2 /* CLayoutDiv.mm */; };
+		DCDAF78D21E477D7006C50D2 /* CChart.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6F421E477C3006C50D2 /* CChart.mm */; };
+		DCDAF78E21E477D7006C50D2 /* CTabPage.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6F521E477C4006C50D2 /* CTabPage.mm */; };
+		DCDAF78F21E477D7006C50D2 /* CPlot.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6F621E477C4006C50D2 /* CPlot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF79021E477D7006C50D2 /* CTextBox.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6F721E477C4006C50D2 /* CTextBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF79121E477D7006C50D2 /* CStr.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6F821E477C5006C50D2 /* CStr.mm */; };
+		DCDAF79221E477D7006C50D2 /* CWindowFrame.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6F921E477C5006C50D2 /* CWindowFrame.mm */; };
+		DCDAF79321E477D7006C50D2 /* CHScrollBar.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6FA21E477C5006C50D2 /* CHScrollBar.mm */; };
+		DCDAF79421E477D7006C50D2 /* CGridRow.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6FB21E477C5006C50D2 /* CGridRow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF79521E477D7006C50D2 /* CSplitLayoutDiv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6FC21E477C6006C50D2 /* CSplitLayoutDiv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF79621E477D7006C50D2 /* stdafx.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6FD21E477C6006C50D2 /* stdafx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF79721E477D7006C50D2 /* CTableLayoutDiv.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF6FE21E477C6006C50D2 /* CTableLayoutDiv.mm */; };
+		DCDAF79821E477D7006C50D2 /* CControl.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF6FF21E477C6006C50D2 /* CControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF79921E477D7006C50D2 /* CBandedGridColumn.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF70021E477C6006C50D2 /* CBandedGridColumn.mm */; };
+		DCDAF79A21E477D7006C50D2 /* CDateTitle.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF70121E477C7006C50D2 /* CDateTitle.mm */; };
+		DCDAF79B21E477D7006C50D2 /* CDayDiv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF70221E477C7006C50D2 /* CDayDiv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF79C21E477D7006C50D2 /* CGridCell.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF70321E477C7006C50D2 /* CGridCell.mm */; };
+		DCDAF79D21E477D7006C50D2 /* CVScrollBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF70421E477C7006C50D2 /* CVScrollBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF79E21E477D7006C50D2 /* CTreeNode.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF70521E477C8006C50D2 /* CTreeNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF79F21E477D7006C50D2 /* CComboBox.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF70621E477C8006C50D2 /* CComboBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7A021E477D7006C50D2 /* CTable.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF70721E477C8006C50D2 /* CTable.mm */; };
+		DCDAF7A121E477D7006C50D2 /* CMonthButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF70821E477C8006C50D2 /* CMonthButton.mm */; };
+		DCDAF7A221E477D7006C50D2 /* CDay.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF70921E477C9006C50D2 /* CDay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7A421E477D7006C50D2 /* CArrowButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF70B21E477C9006C50D2 /* CArrowButton.mm */; };
+		DCDAF7A521E477D7006C50D2 /* CBaseShape.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF70C21E477C9006C50D2 /* CBaseShape.mm */; };
+		DCDAF7A621E477D8006C50D2 /* CMonthDiv.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF70D21E477CA006C50D2 /* CMonthDiv.mm */; };
+		DCDAF7A721E477D8006C50D2 /* CScrollBar.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF70E21E477CA006C50D2 /* CScrollBar.mm */; };
+		DCDAF7A821E477D8006C50D2 /* CList.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF70F21E477CA006C50D2 /* CList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7A921E477D8006C50D2 /* CBandedGrid.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF71021E477CA006C50D2 /* CBandedGrid.mm */; };
+		DCDAF7AA21E477D8006C50D2 /* CMonth.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF71121E477CB006C50D2 /* CMonth.mm */; };
+		DCDAF7AB21E477D8006C50D2 /* CGridEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF71221E477CB006C50D2 /* CGridEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7AD21E477D8006C50D2 /* CMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF71421E477CB006C50D2 /* CMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7AE21E477D8006C50D2 /* CLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF71521E477CC006C50D2 /* CLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7AF21E477D8006C50D2 /* CTreeNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF71621E477CC006C50D2 /* CTreeNode.mm */; };
+		DCDAF7B121E477D8006C50D2 /* CToolTip.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF71821E477CC006C50D2 /* CToolTip.mm */; };
+		DCDAF7B221E477D8006C50D2 /* CCrossLineTip.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF71921E477CC006C50D2 /* CCrossLineTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7B321E477D8006C50D2 /* CScaleGrid.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF71A21E477CD006C50D2 /* CScaleGrid.mm */; };
+		DCDAF7B421E477D8006C50D2 /* CButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF71B21E477CD006C50D2 /* CButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7B521E477D8006C50D2 /* CGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF71C21E477CD006C50D2 /* CGrid.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7B621E477D8006C50D2 /* CTree.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF71D21E477CD006C50D2 /* CTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7B721E477D8006C50D2 /* CCheckBox.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF71E21E477CD006C50D2 /* CCheckBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7B821E477D8006C50D2 /* CYears.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF71F21E477CE006C50D2 /* CYears.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7B921E477D8006C50D2 /* CLinkLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72021E477CE006C50D2 /* CLinkLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7BA21E477D8006C50D2 /* CTabControl.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72121E477CE006C50D2 /* CTabControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7BB21E477D8006C50D2 /* CComboBox.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF72221E477CE006C50D2 /* CComboBox.mm */; };
+		DCDAF7BC21E477D8006C50D2 /* CIndicator.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF72321E477CF006C50D2 /* CIndicator.mm */; };
+		DCDAF7BD21E477D8006C50D2 /* CTabControl.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF72421E477CF006C50D2 /* CTabControl.mm */; };
+		DCDAF7BE21E477D8006C50D2 /* CWindowFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72521E477CF006C50D2 /* CWindowFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7BF21E477D8006C50D2 /* CPlot.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF72621E477CF006C50D2 /* CPlot.mm */; };
+		DCDAF7C021E477D8006C50D2 /* CPaint.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72721E477CF006C50D2 /* CPaint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7C121E477D8006C50D2 /* CGridBand.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF72821E477D0006C50D2 /* CGridBand.mm */; };
+		DCDAF7C221E477D8006C50D2 /* CStr.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72921E477D0006C50D2 /* CStr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7C321E477D8006C50D2 /* CIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72A21E477D0006C50D2 /* CIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7C421E477D8006C50D2 /* CGridCellExtends.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF72B21E477D0006C50D2 /* CGridCellExtends.mm */; };
+		DCDAF7C521E477D8006C50D2 /* CSpin.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72C21E477D0006C50D2 /* CSpin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7C621E477D8006C50D2 /* CScrollBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72D21E477D1006C50D2 /* CScrollBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7C721E477D8006C50D2 /* CToolTip.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72E21E477D1006C50D2 /* CToolTip.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7C821E477D8006C50D2 /* CYearDiv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF72F21E477D1006C50D2 /* CYearDiv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7C921E477D8006C50D2 /* CMonth.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73021E477D1006C50D2 /* CMonth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7CA21E477D8006C50D2 /* CMonthButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73121E477D1006C50D2 /* CMonthButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7CB21E477D8006C50D2 /* CMathLib.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73221E477D2006C50D2 /* CMathLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7CC21E477D8006C50D2 /* CYear.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF73321E477D2006C50D2 /* CYear.mm */; };
+		DCDAF7CD21E477D8006C50D2 /* CControl.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF73421E477D2006C50D2 /* CControl.mm */; };
+		DCDAF7CE21E477D8006C50D2 /* CMenuItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF73521E477D2006C50D2 /* CMenuItem.mm */; };
+		DCDAF7CF21E477D8006C50D2 /* CLayoutDiv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73621E477D2006C50D2 /* CLayoutDiv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7D021E477D8006C50D2 /* CClient.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73721E477D3006C50D2 /* CClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7D121E477D8006C50D2 /* Div.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF73821E477D3006C50D2 /* Div.mm */; };
+		DCDAF7D221E477D8006C50D2 /* CLib2.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73921E477D3006C50D2 /* CLib2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7D321E477D8006C50D2 /* CDayButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73A21E477D3006C50D2 /* CDayButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7D421E477D8006C50D2 /* CVScale.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73B21E477D3006C50D2 /* CVScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7D521E477D8006C50D2 /* CGridCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73C21E477D4006C50D2 /* CGridCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7D621E477D8006C50D2 /* CCrossLineTip.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF73D21E477D4006C50D2 /* CCrossLineTip.mm */; };
+		DCDAF7D721E477D8006C50D2 /* CBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF73E21E477D4006C50D2 /* CBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7D821E477D8006C50D2 /* CVScrollBar.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF73F21E477D4006C50D2 /* CVScrollBar.mm */; };
+		DCDAF7D921E477D8006C50D2 /* CSplitLayoutDiv.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF74021E477D4006C50D2 /* CSplitLayoutDiv.mm */; };
+		DCDAF7DA21E477D8006C50D2 /* CDiv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74121E477D5006C50D2 /* CDiv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7DB21E477D8006C50D2 /* CTitleBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74221E477D5006C50D2 /* CTitleBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7DC21E477D8006C50D2 /* CDateTimePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74321E477D5006C50D2 /* CDateTimePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7DD21E477D8006C50D2 /* CRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74421E477D5006C50D2 /* CRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7DE21E477D8006C50D2 /* Enums.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74521E477D5006C50D2 /* Enums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7DF21E477D8006C50D2 /* Div.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74621E477D5006C50D2 /* Div.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7E021E477D8006C50D2 /* CLinkLabel.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF74721E477D6006C50D2 /* CLinkLabel.mm */; };
+		DCDAF7E121E477D8006C50D2 /* CPExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74821E477D6006C50D2 /* CPExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7E221E477D8006C50D2 /* CPlotBase.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74921E477D6006C50D2 /* CPlotBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7E321E477D8006C50D2 /* CSelectArea.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74A21E477D6006C50D2 /* CSelectArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7E421E477D8006C50D2 /* CMathLib.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF74B21E477D6006C50D2 /* CMathLib.mm */; };
+		DCDAF7E521E477D8006C50D2 /* CHScale.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74C21E477D7006C50D2 /* CHScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7E621E477D8006C50D2 /* CTableLayoutDiv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74D21E477D7006C50D2 /* CTableLayoutDiv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7E721E477D8006C50D2 /* CGridCellExtends.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74E21E477D7006C50D2 /* CGridCellExtends.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7E821E477D8006C50D2 /* CMonthDiv.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF74F21E477D7006C50D2 /* CMonthDiv.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7EB21E48207006C50D2 /* CCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = DCDAF7E921E48206006C50D2 /* CCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCDAF7EC21E48208006C50D2 /* CCalendar.mm in Sources */ = {isa = PBXBuildFile; fileRef = DCDAF7EA21E48206006C50D2 /* CCalendar.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DA4117A2220506C002D7147 /* CClient.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CClient.mm; sourceTree = "<group>"; };
+		7DA4117C2220507F002D7147 /* CClients.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CClients.mm; sourceTree = "<group>"; };
+		DCDAF6AC21E472AC006C50D2 /* mechart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mechart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCDAF6AF21E472AC006C50D2 /* mechart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mechart.h; sourceTree = "<group>"; };
+		DCDAF6B021E472AC006C50D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCDAF6B721E477B5006C50D2 /* CWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWindow.mm; sourceTree = "<group>"; };
+		DCDAF6B821E477B6006C50D2 /* CBandedGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBandedGrid.h; sourceTree = "<group>"; };
+		DCDAF6B921E477B6006C50D2 /* CSpin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CSpin.mm; sourceTree = "<group>"; };
+		DCDAF6BA21E477B6006C50D2 /* CHScrollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHScrollBar.h; sourceTree = "<group>"; };
+		DCDAF6BB21E477B6006C50D2 /* CGridBand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGridBand.h; sourceTree = "<group>"; };
+		DCDAF6BC21E477B6006C50D2 /* CHScale.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CHScale.mm; sourceTree = "<group>"; };
+		DCDAF6BD21E477B6006C50D2 /* CGroupBox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGroupBox.mm; sourceTree = "<group>"; };
+		DCDAF6BE21E477B6006C50D2 /* CDay.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CDay.mm; sourceTree = "<group>"; };
+		DCDAF6BF21E477B6006C50D2 /* CProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CProperty.h; sourceTree = "<group>"; };
+		DCDAF6C021E477B6006C50D2 /* CClients.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CClients.h; sourceTree = "<group>"; };
+		DCDAF6C121E477B6006C50D2 /* CButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CButton.mm; sourceTree = "<group>"; };
+		DCDAF6C221E477B7006C50D2 /* CDateTimePicker.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CDateTimePicker.mm; sourceTree = "<group>"; };
+		DCDAF6C321E477B7006C50D2 /* CGridRow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGridRow.mm; sourceTree = "<group>"; };
+		DCDAF6C421E477B7006C50D2 /* CHeadDiv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CHeadDiv.mm; sourceTree = "<group>"; };
+		DCDAF6C521E477B7006C50D2 /* CYears.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CYears.mm; sourceTree = "<group>"; };
+		DCDAF6C621E477B7006C50D2 /* CControlHost.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CControlHost.mm; sourceTree = "<group>"; };
+		DCDAF6C721E477B7006C50D2 /* CScaleGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CScaleGrid.h; sourceTree = "<group>"; };
+		DCDAF6C821E477B7006C50D2 /* CMenu.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMenu.mm; sourceTree = "<group>"; };
+		DCDAF6C921E477B7006C50D2 /* CPlotBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPlotBase.mm; sourceTree = "<group>"; };
+		DCDAF6CA21E477B8006C50D2 /* CSelectArea.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CSelectArea.mm; sourceTree = "<group>"; };
+		DCDAF6CB21E477B8006C50D2 /* CDiv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CDiv.mm; sourceTree = "<group>"; };
+		DCDAF6CC21E477B8006C50D2 /* CYearButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CYearButton.mm; sourceTree = "<group>"; };
+		DCDAF6CD21E477B8006C50D2 /* CLabel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CLabel.mm; sourceTree = "<group>"; };
+		DCDAF6CE21E477B8006C50D2 /* CNativeBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CNativeBase.mm; sourceTree = "<group>"; };
+		DCDAF6CF21E477B9006C50D2 /* CCrossLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCrossLine.h; sourceTree = "<group>"; };
+		DCDAF6D021E477B9006C50D2 /* CCrossLine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCrossLine.mm; sourceTree = "<group>"; };
+		DCDAF6D121E477BA006C50D2 /* CTimeDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTimeDiv.h; sourceTree = "<group>"; };
+		DCDAF6D221E477BA006C50D2 /* CWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWindow.h; sourceTree = "<group>"; };
+		DCDAF6D321E477BA006C50D2 /* CRadioButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CRadioButton.mm; sourceTree = "<group>"; };
+		DCDAF6D421E477BB006C50D2 /* CPExtend.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPExtend.mm; sourceTree = "<group>"; };
+		DCDAF6D521E477BB006C50D2 /* CTitleBar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CTitleBar.mm; sourceTree = "<group>"; };
+		DCDAF6D621E477BB006C50D2 /* CYearDiv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CYearDiv.mm; sourceTree = "<group>"; };
+		DCDAF6D721E477BC006C50D2 /* CBandedGridColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBandedGridColumn.h; sourceTree = "<group>"; };
+		DCDAF6D821E477BC006C50D2 /* CGridColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGridColumn.h; sourceTree = "<group>"; };
+		DCDAF6D921E477BC006C50D2 /* CBaseShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBaseShape.h; sourceTree = "<group>"; };
+		DCDAF6DA21E477BC006C50D2 /* ToolTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolTip.h; sourceTree = "<group>"; };
+		DCDAF6DB21E477BD006C50D2 /* CYearButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYearButton.h; sourceTree = "<group>"; };
+		DCDAF6DC21E477BD006C50D2 /* CYear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYear.h; sourceTree = "<group>"; };
+		DCDAF6DD21E477BD006C50D2 /* CGridColumn.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGridColumn.mm; sourceTree = "<group>"; };
+		DCDAF6DE21E477BD006C50D2 /* CDayButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CDayButton.mm; sourceTree = "<group>"; };
+		DCDAF6DF21E477BD006C50D2 /* CControlHost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CControlHost.h; sourceTree = "<group>"; };
+		DCDAF6E021E477BE006C50D2 /* CVScale.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVScale.mm; sourceTree = "<group>"; };
+		DCDAF6E121E477BE006C50D2 /* CChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CChart.h; sourceTree = "<group>"; };
+		DCDAF6E221E477BE006C50D2 /* CArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CArrowButton.h; sourceTree = "<group>"; };
+		DCDAF6E321E477BE006C50D2 /* CGroupBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGroupBox.h; sourceTree = "<group>"; };
+		DCDAF6E521E477BF006C50D2 /* CGrid.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGrid.mm; sourceTree = "<group>"; };
+		DCDAF6E621E477BF006C50D2 /* CHeadDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHeadDiv.h; sourceTree = "<group>"; };
+		DCDAF6E721E477BF006C50D2 /* CCheckBox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCheckBox.mm; sourceTree = "<group>"; };
+		DCDAF6E821E477BF006C50D2 /* CPaint.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPaint.mm; sourceTree = "<group>"; };
+		DCDAF6E921E477C0006C50D2 /* CMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMenuItem.h; sourceTree = "<group>"; };
+		DCDAF6EA21E477C0006C50D2 /* CDayDiv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CDayDiv.mm; sourceTree = "<group>"; };
+		DCDAF6EB21E477C0006C50D2 /* CTabPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTabPage.h; sourceTree = "<group>"; };
+		DCDAF6EC21E477C1006C50D2 /* CTextBox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CTextBox.mm; sourceTree = "<group>"; };
+		DCDAF6ED21E477C1006C50D2 /* CTimeDiv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CTimeDiv.mm; sourceTree = "<group>"; };
+		DCDAF6EE21E477C1006C50D2 /* CTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTable.h; sourceTree = "<group>"; };
+		DCDAF6EF21E477C2006C50D2 /* ToolTip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ToolTip.mm; sourceTree = "<group>"; };
+		DCDAF6F021E477C2006C50D2 /* CNativeBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNativeBase.h; sourceTree = "<group>"; };
+		DCDAF6F121E477C2006C50D2 /* CDateTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDateTitle.h; sourceTree = "<group>"; };
+		DCDAF6F221E477C3006C50D2 /* CTree.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CTree.mm; sourceTree = "<group>"; };
+		DCDAF6F321E477C3006C50D2 /* CLayoutDiv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CLayoutDiv.mm; sourceTree = "<group>"; };
+		DCDAF6F421E477C3006C50D2 /* CChart.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CChart.mm; sourceTree = "<group>"; };
+		DCDAF6F521E477C4006C50D2 /* CTabPage.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CTabPage.mm; sourceTree = "<group>"; };
+		DCDAF6F621E477C4006C50D2 /* CPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlot.h; sourceTree = "<group>"; };
+		DCDAF6F721E477C4006C50D2 /* CTextBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTextBox.h; sourceTree = "<group>"; };
+		DCDAF6F821E477C5006C50D2 /* CStr.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CStr.mm; sourceTree = "<group>"; };
+		DCDAF6F921E477C5006C50D2 /* CWindowFrame.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CWindowFrame.mm; sourceTree = "<group>"; };
+		DCDAF6FA21E477C5006C50D2 /* CHScrollBar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CHScrollBar.mm; sourceTree = "<group>"; };
+		DCDAF6FB21E477C5006C50D2 /* CGridRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGridRow.h; sourceTree = "<group>"; };
+		DCDAF6FC21E477C6006C50D2 /* CSplitLayoutDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSplitLayoutDiv.h; sourceTree = "<group>"; };
+		DCDAF6FD21E477C6006C50D2 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdafx.h; sourceTree = "<group>"; };
+		DCDAF6FE21E477C6006C50D2 /* CTableLayoutDiv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CTableLayoutDiv.mm; sourceTree = "<group>"; };
+		DCDAF6FF21E477C6006C50D2 /* CControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CControl.h; sourceTree = "<group>"; };
+		DCDAF70021E477C6006C50D2 /* CBandedGridColumn.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CBandedGridColumn.mm; sourceTree = "<group>"; };
+		DCDAF70121E477C7006C50D2 /* CDateTitle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CDateTitle.mm; sourceTree = "<group>"; };
+		DCDAF70221E477C7006C50D2 /* CDayDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDayDiv.h; sourceTree = "<group>"; };
+		DCDAF70321E477C7006C50D2 /* CGridCell.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGridCell.mm; sourceTree = "<group>"; };
+		DCDAF70421E477C7006C50D2 /* CVScrollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVScrollBar.h; sourceTree = "<group>"; };
+		DCDAF70521E477C8006C50D2 /* CTreeNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTreeNode.h; sourceTree = "<group>"; };
+		DCDAF70621E477C8006C50D2 /* CComboBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CComboBox.h; sourceTree = "<group>"; };
+		DCDAF70721E477C8006C50D2 /* CTable.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CTable.mm; sourceTree = "<group>"; };
+		DCDAF70821E477C8006C50D2 /* CMonthButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMonthButton.mm; sourceTree = "<group>"; };
+		DCDAF70921E477C9006C50D2 /* CDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDay.h; sourceTree = "<group>"; };
+		DCDAF70B21E477C9006C50D2 /* CArrowButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CArrowButton.mm; sourceTree = "<group>"; };
+		DCDAF70C21E477C9006C50D2 /* CBaseShape.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CBaseShape.mm; sourceTree = "<group>"; };
+		DCDAF70D21E477CA006C50D2 /* CMonthDiv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMonthDiv.mm; sourceTree = "<group>"; };
+		DCDAF70E21E477CA006C50D2 /* CScrollBar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CScrollBar.mm; sourceTree = "<group>"; };
+		DCDAF70F21E477CA006C50D2 /* CList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CList.h; sourceTree = "<group>"; };
+		DCDAF71021E477CA006C50D2 /* CBandedGrid.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CBandedGrid.mm; sourceTree = "<group>"; };
+		DCDAF71121E477CB006C50D2 /* CMonth.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMonth.mm; sourceTree = "<group>"; };
+		DCDAF71221E477CB006C50D2 /* CGridEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGridEnums.h; sourceTree = "<group>"; };
+		DCDAF71421E477CB006C50D2 /* CMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMenu.h; sourceTree = "<group>"; };
+		DCDAF71521E477CC006C50D2 /* CLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLabel.h; sourceTree = "<group>"; };
+		DCDAF71621E477CC006C50D2 /* CTreeNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CTreeNode.mm; sourceTree = "<group>"; };
+		DCDAF71821E477CC006C50D2 /* CToolTip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CToolTip.mm; sourceTree = "<group>"; };
+		DCDAF71921E477CC006C50D2 /* CCrossLineTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCrossLineTip.h; sourceTree = "<group>"; };
+		DCDAF71A21E477CD006C50D2 /* CScaleGrid.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CScaleGrid.mm; sourceTree = "<group>"; };
+		DCDAF71B21E477CD006C50D2 /* CButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CButton.h; sourceTree = "<group>"; };
+		DCDAF71C21E477CD006C50D2 /* CGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGrid.h; sourceTree = "<group>"; };
+		DCDAF71D21E477CD006C50D2 /* CTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTree.h; sourceTree = "<group>"; };
+		DCDAF71E21E477CD006C50D2 /* CCheckBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCheckBox.h; sourceTree = "<group>"; };
+		DCDAF71F21E477CE006C50D2 /* CYears.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYears.h; sourceTree = "<group>"; };
+		DCDAF72021E477CE006C50D2 /* CLinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLinkLabel.h; sourceTree = "<group>"; };
+		DCDAF72121E477CE006C50D2 /* CTabControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTabControl.h; sourceTree = "<group>"; };
+		DCDAF72221E477CE006C50D2 /* CComboBox.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CComboBox.mm; sourceTree = "<group>"; };
+		DCDAF72321E477CF006C50D2 /* CIndicator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CIndicator.mm; sourceTree = "<group>"; };
+		DCDAF72421E477CF006C50D2 /* CTabControl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CTabControl.mm; sourceTree = "<group>"; };
+		DCDAF72521E477CF006C50D2 /* CWindowFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWindowFrame.h; sourceTree = "<group>"; };
+		DCDAF72621E477CF006C50D2 /* CPlot.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CPlot.mm; sourceTree = "<group>"; };
+		DCDAF72721E477CF006C50D2 /* CPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPaint.h; sourceTree = "<group>"; };
+		DCDAF72821E477D0006C50D2 /* CGridBand.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGridBand.mm; sourceTree = "<group>"; };
+		DCDAF72921E477D0006C50D2 /* CStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CStr.h; sourceTree = "<group>"; };
+		DCDAF72A21E477D0006C50D2 /* CIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIndicator.h; sourceTree = "<group>"; };
+		DCDAF72B21E477D0006C50D2 /* CGridCellExtends.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CGridCellExtends.mm; sourceTree = "<group>"; };
+		DCDAF72C21E477D0006C50D2 /* CSpin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSpin.h; sourceTree = "<group>"; };
+		DCDAF72D21E477D1006C50D2 /* CScrollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CScrollBar.h; sourceTree = "<group>"; };
+		DCDAF72E21E477D1006C50D2 /* CToolTip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CToolTip.h; sourceTree = "<group>"; };
+		DCDAF72F21E477D1006C50D2 /* CYearDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYearDiv.h; sourceTree = "<group>"; };
+		DCDAF73021E477D1006C50D2 /* CMonth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMonth.h; sourceTree = "<group>"; };
+		DCDAF73121E477D1006C50D2 /* CMonthButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMonthButton.h; sourceTree = "<group>"; };
+		DCDAF73221E477D2006C50D2 /* CMathLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMathLib.h; sourceTree = "<group>"; };
+		DCDAF73321E477D2006C50D2 /* CYear.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CYear.mm; sourceTree = "<group>"; };
+		DCDAF73421E477D2006C50D2 /* CControl.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CControl.mm; sourceTree = "<group>"; };
+		DCDAF73521E477D2006C50D2 /* CMenuItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMenuItem.mm; sourceTree = "<group>"; };
+		DCDAF73621E477D2006C50D2 /* CLayoutDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLayoutDiv.h; sourceTree = "<group>"; };
+		DCDAF73721E477D3006C50D2 /* CClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CClient.h; sourceTree = "<group>"; };
+		DCDAF73821E477D3006C50D2 /* Div.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Div.mm; sourceTree = "<group>"; };
+		DCDAF73921E477D3006C50D2 /* CLib2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLib2.h; sourceTree = "<group>"; };
+		DCDAF73A21E477D3006C50D2 /* CDayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDayButton.h; sourceTree = "<group>"; };
+		DCDAF73B21E477D3006C50D2 /* CVScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVScale.h; sourceTree = "<group>"; };
+		DCDAF73C21E477D4006C50D2 /* CGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGridCell.h; sourceTree = "<group>"; };
+		DCDAF73D21E477D4006C50D2 /* CCrossLineTip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCrossLineTip.mm; sourceTree = "<group>"; };
+		DCDAF73E21E477D4006C50D2 /* CBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBase64.h; sourceTree = "<group>"; };
+		DCDAF73F21E477D4006C50D2 /* CVScrollBar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVScrollBar.mm; sourceTree = "<group>"; };
+		DCDAF74021E477D4006C50D2 /* CSplitLayoutDiv.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CSplitLayoutDiv.mm; sourceTree = "<group>"; };
+		DCDAF74121E477D5006C50D2 /* CDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDiv.h; sourceTree = "<group>"; };
+		DCDAF74221E477D5006C50D2 /* CTitleBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTitleBar.h; sourceTree = "<group>"; };
+		DCDAF74321E477D5006C50D2 /* CDateTimePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDateTimePicker.h; sourceTree = "<group>"; };
+		DCDAF74421E477D5006C50D2 /* CRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRadioButton.h; sourceTree = "<group>"; };
+		DCDAF74521E477D5006C50D2 /* Enums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enums.h; sourceTree = "<group>"; };
+		DCDAF74621E477D5006C50D2 /* Div.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Div.h; sourceTree = "<group>"; };
+		DCDAF74721E477D6006C50D2 /* CLinkLabel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CLinkLabel.mm; sourceTree = "<group>"; };
+		DCDAF74821E477D6006C50D2 /* CPExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPExtend.h; sourceTree = "<group>"; };
+		DCDAF74921E477D6006C50D2 /* CPlotBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPlotBase.h; sourceTree = "<group>"; };
+		DCDAF74A21E477D6006C50D2 /* CSelectArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSelectArea.h; sourceTree = "<group>"; };
+		DCDAF74B21E477D6006C50D2 /* CMathLib.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CMathLib.mm; sourceTree = "<group>"; };
+		DCDAF74C21E477D7006C50D2 /* CHScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHScale.h; sourceTree = "<group>"; };
+		DCDAF74D21E477D7006C50D2 /* CTableLayoutDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTableLayoutDiv.h; sourceTree = "<group>"; };
+		DCDAF74E21E477D7006C50D2 /* CGridCellExtends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGridCellExtends.h; sourceTree = "<group>"; };
+		DCDAF74F21E477D7006C50D2 /* CMonthDiv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMonthDiv.h; sourceTree = "<group>"; };
+		DCDAF7E921E48206006C50D2 /* CCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCalendar.h; sourceTree = "<group>"; };
+		DCDAF7EA21E48206006C50D2 /* CCalendar.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CCalendar.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCDAF6A921E472AC006C50D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCDAF6A221E472AC006C50D2 = {
+			isa = PBXGroup;
+			children = (
+				DCDAF6AE21E472AC006C50D2 /* mechart */,
+				DCDAF6AD21E472AC006C50D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCDAF6AD21E472AC006C50D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAF6AC21E472AC006C50D2 /* mechart.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCDAF6AE21E472AC006C50D2 /* mechart */ = {
+			isa = PBXGroup;
+			children = (
+				DCDAF6E221E477BE006C50D2 /* CArrowButton.h */,
+				DCDAF70B21E477C9006C50D2 /* CArrowButton.mm */,
+				DCDAF6B821E477B6006C50D2 /* CBandedGrid.h */,
+				DCDAF71021E477CA006C50D2 /* CBandedGrid.mm */,
+				DCDAF6D721E477BC006C50D2 /* CBandedGridColumn.h */,
+				DCDAF70021E477C6006C50D2 /* CBandedGridColumn.mm */,
+				DCDAF73E21E477D4006C50D2 /* CBase64.h */,
+				DCDAF6D921E477BC006C50D2 /* CBaseShape.h */,
+				DCDAF70C21E477C9006C50D2 /* CBaseShape.mm */,
+				DCDAF71B21E477CD006C50D2 /* CButton.h */,
+				DCDAF6C121E477B6006C50D2 /* CButton.mm */,
+				DCDAF7E921E48206006C50D2 /* CCalendar.h */,
+				DCDAF7EA21E48206006C50D2 /* CCalendar.mm */,
+				DCDAF6E121E477BE006C50D2 /* CChart.h */,
+				DCDAF6F421E477C3006C50D2 /* CChart.mm */,
+				DCDAF71E21E477CD006C50D2 /* CCheckBox.h */,
+				DCDAF6E721E477BF006C50D2 /* CCheckBox.mm */,
+				DCDAF73721E477D3006C50D2 /* CClient.h */,
+				7DA4117A2220506C002D7147 /* CClient.mm */,
+				DCDAF6C021E477B6006C50D2 /* CClients.h */,
+				7DA4117C2220507F002D7147 /* CClients.mm */,
+				DCDAF70621E477C8006C50D2 /* CComboBox.h */,
+				DCDAF72221E477CE006C50D2 /* CComboBox.mm */,
+				DCDAF6FF21E477C6006C50D2 /* CControl.h */,
+				DCDAF73421E477D2006C50D2 /* CControl.mm */,
+				DCDAF6DF21E477BD006C50D2 /* CControlHost.h */,
+				DCDAF6C621E477B7006C50D2 /* CControlHost.mm */,
+				DCDAF6CF21E477B9006C50D2 /* CCrossLine.h */,
+				DCDAF6D021E477B9006C50D2 /* CCrossLine.mm */,
+				DCDAF71921E477CC006C50D2 /* CCrossLineTip.h */,
+				DCDAF73D21E477D4006C50D2 /* CCrossLineTip.mm */,
+				DCDAF74321E477D5006C50D2 /* CDateTimePicker.h */,
+				DCDAF6C221E477B7006C50D2 /* CDateTimePicker.mm */,
+				DCDAF6F121E477C2006C50D2 /* CDateTitle.h */,
+				DCDAF70121E477C7006C50D2 /* CDateTitle.mm */,
+				DCDAF70921E477C9006C50D2 /* CDay.h */,
+				DCDAF6BE21E477B6006C50D2 /* CDay.mm */,
+				DCDAF73A21E477D3006C50D2 /* CDayButton.h */,
+				DCDAF6DE21E477BD006C50D2 /* CDayButton.mm */,
+				DCDAF70221E477C7006C50D2 /* CDayDiv.h */,
+				DCDAF6EA21E477C0006C50D2 /* CDayDiv.mm */,
+				DCDAF74121E477D5006C50D2 /* CDiv.h */,
+				DCDAF6CB21E477B8006C50D2 /* CDiv.mm */,
+				DCDAF71C21E477CD006C50D2 /* CGrid.h */,
+				DCDAF6E521E477BF006C50D2 /* CGrid.mm */,
+				DCDAF6BB21E477B6006C50D2 /* CGridBand.h */,
+				DCDAF72821E477D0006C50D2 /* CGridBand.mm */,
+				DCDAF73C21E477D4006C50D2 /* CGridCell.h */,
+				DCDAF70321E477C7006C50D2 /* CGridCell.mm */,
+				DCDAF74E21E477D7006C50D2 /* CGridCellExtends.h */,
+				DCDAF72B21E477D0006C50D2 /* CGridCellExtends.mm */,
+				DCDAF6D821E477BC006C50D2 /* CGridColumn.h */,
+				DCDAF6DD21E477BD006C50D2 /* CGridColumn.mm */,
+				DCDAF71221E477CB006C50D2 /* CGridEnums.h */,
+				DCDAF6FB21E477C5006C50D2 /* CGridRow.h */,
+				DCDAF6C321E477B7006C50D2 /* CGridRow.mm */,
+				DCDAF6E321E477BE006C50D2 /* CGroupBox.h */,
+				DCDAF6BD21E477B6006C50D2 /* CGroupBox.mm */,
+				DCDAF6E621E477BF006C50D2 /* CHeadDiv.h */,
+				DCDAF6C421E477B7006C50D2 /* CHeadDiv.mm */,
+				DCDAF74C21E477D7006C50D2 /* CHScale.h */,
+				DCDAF6BC21E477B6006C50D2 /* CHScale.mm */,
+				DCDAF6BA21E477B6006C50D2 /* CHScrollBar.h */,
+				DCDAF6FA21E477C5006C50D2 /* CHScrollBar.mm */,
+				DCDAF72A21E477D0006C50D2 /* CIndicator.h */,
+				DCDAF72321E477CF006C50D2 /* CIndicator.mm */,
+				DCDAF71521E477CC006C50D2 /* CLabel.h */,
+				DCDAF6CD21E477B8006C50D2 /* CLabel.mm */,
+				DCDAF73621E477D2006C50D2 /* CLayoutDiv.h */,
+				DCDAF6F321E477C3006C50D2 /* CLayoutDiv.mm */,
+				DCDAF73921E477D3006C50D2 /* CLib2.h */,
+				DCDAF72021E477CE006C50D2 /* CLinkLabel.h */,
+				DCDAF74721E477D6006C50D2 /* CLinkLabel.mm */,
+				DCDAF70F21E477CA006C50D2 /* CList.h */,
+				DCDAF73221E477D2006C50D2 /* CMathLib.h */,
+				DCDAF74B21E477D6006C50D2 /* CMathLib.mm */,
+				DCDAF71421E477CB006C50D2 /* CMenu.h */,
+				DCDAF6C821E477B7006C50D2 /* CMenu.mm */,
+				DCDAF6E921E477C0006C50D2 /* CMenuItem.h */,
+				DCDAF73521E477D2006C50D2 /* CMenuItem.mm */,
+				DCDAF73021E477D1006C50D2 /* CMonth.h */,
+				DCDAF71121E477CB006C50D2 /* CMonth.mm */,
+				DCDAF73121E477D1006C50D2 /* CMonthButton.h */,
+				DCDAF70821E477C8006C50D2 /* CMonthButton.mm */,
+				DCDAF74F21E477D7006C50D2 /* CMonthDiv.h */,
+				DCDAF70D21E477CA006C50D2 /* CMonthDiv.mm */,
+				DCDAF6F021E477C2006C50D2 /* CNativeBase.h */,
+				DCDAF6CE21E477B8006C50D2 /* CNativeBase.mm */,
+				DCDAF72721E477CF006C50D2 /* CPaint.h */,
+				DCDAF6E821E477BF006C50D2 /* CPaint.mm */,
+				DCDAF74821E477D6006C50D2 /* CPExtend.h */,
+				DCDAF6D421E477BB006C50D2 /* CPExtend.mm */,
+				DCDAF6F621E477C4006C50D2 /* CPlot.h */,
+				DCDAF72621E477CF006C50D2 /* CPlot.mm */,
+				DCDAF74921E477D6006C50D2 /* CPlotBase.h */,
+				DCDAF6C921E477B7006C50D2 /* CPlotBase.mm */,
+				DCDAF6BF21E477B6006C50D2 /* CProperty.h */,
+				DCDAF74421E477D5006C50D2 /* CRadioButton.h */,
+				DCDAF6D321E477BA006C50D2 /* CRadioButton.mm */,
+				DCDAF6C721E477B7006C50D2 /* CScaleGrid.h */,
+				DCDAF71A21E477CD006C50D2 /* CScaleGrid.mm */,
+				DCDAF72D21E477D1006C50D2 /* CScrollBar.h */,
+				DCDAF70E21E477CA006C50D2 /* CScrollBar.mm */,
+				DCDAF74A21E477D6006C50D2 /* CSelectArea.h */,
+				DCDAF6CA21E477B8006C50D2 /* CSelectArea.mm */,
+				DCDAF72C21E477D0006C50D2 /* CSpin.h */,
+				DCDAF6B921E477B6006C50D2 /* CSpin.mm */,
+				DCDAF6FC21E477C6006C50D2 /* CSplitLayoutDiv.h */,
+				DCDAF74021E477D4006C50D2 /* CSplitLayoutDiv.mm */,
+				DCDAF72921E477D0006C50D2 /* CStr.h */,
+				DCDAF6F821E477C5006C50D2 /* CStr.mm */,
+				DCDAF72121E477CE006C50D2 /* CTabControl.h */,
+				DCDAF72421E477CF006C50D2 /* CTabControl.mm */,
+				DCDAF6EE21E477C1006C50D2 /* CTable.h */,
+				DCDAF70721E477C8006C50D2 /* CTable.mm */,
+				DCDAF74D21E477D7006C50D2 /* CTableLayoutDiv.h */,
+				DCDAF6FE21E477C6006C50D2 /* CTableLayoutDiv.mm */,
+				DCDAF6EB21E477C0006C50D2 /* CTabPage.h */,
+				DCDAF6F521E477C4006C50D2 /* CTabPage.mm */,
+				DCDAF6F721E477C4006C50D2 /* CTextBox.h */,
+				DCDAF6EC21E477C1006C50D2 /* CTextBox.mm */,
+				DCDAF6D121E477BA006C50D2 /* CTimeDiv.h */,
+				DCDAF6ED21E477C1006C50D2 /* CTimeDiv.mm */,
+				DCDAF74221E477D5006C50D2 /* CTitleBar.h */,
+				DCDAF6D521E477BB006C50D2 /* CTitleBar.mm */,
+				DCDAF72E21E477D1006C50D2 /* CToolTip.h */,
+				DCDAF71821E477CC006C50D2 /* CToolTip.mm */,
+				DCDAF71D21E477CD006C50D2 /* CTree.h */,
+				DCDAF6F221E477C3006C50D2 /* CTree.mm */,
+				DCDAF70521E477C8006C50D2 /* CTreeNode.h */,
+				DCDAF71621E477CC006C50D2 /* CTreeNode.mm */,
+				DCDAF73B21E477D3006C50D2 /* CVScale.h */,
+				DCDAF6E021E477BE006C50D2 /* CVScale.mm */,
+				DCDAF70421E477C7006C50D2 /* CVScrollBar.h */,
+				DCDAF73F21E477D4006C50D2 /* CVScrollBar.mm */,
+				DCDAF6D221E477BA006C50D2 /* CWindow.h */,
+				DCDAF6B721E477B5006C50D2 /* CWindow.mm */,
+				DCDAF72521E477CF006C50D2 /* CWindowFrame.h */,
+				DCDAF6F921E477C5006C50D2 /* CWindowFrame.mm */,
+				DCDAF6DC21E477BD006C50D2 /* CYear.h */,
+				DCDAF73321E477D2006C50D2 /* CYear.mm */,
+				DCDAF6DB21E477BD006C50D2 /* CYearButton.h */,
+				DCDAF6CC21E477B8006C50D2 /* CYearButton.mm */,
+				DCDAF72F21E477D1006C50D2 /* CYearDiv.h */,
+				DCDAF6D621E477BB006C50D2 /* CYearDiv.mm */,
+				DCDAF71F21E477CE006C50D2 /* CYears.h */,
+				DCDAF6C521E477B7006C50D2 /* CYears.mm */,
+				DCDAF74621E477D5006C50D2 /* Div.h */,
+				DCDAF73821E477D3006C50D2 /* Div.mm */,
+				DCDAF74521E477D5006C50D2 /* Enums.h */,
+				DCDAF6B021E472AC006C50D2 /* Info.plist */,
+				DCDAF6AF21E472AC006C50D2 /* mechart.h */,
+				DCDAF6FD21E477C6006C50D2 /* stdafx.h */,
+				DCDAF6DA21E477BC006C50D2 /* ToolTip.h */,
+				DCDAF6EF21E477C2006C50D2 /* ToolTip.mm */,
+			);
+			path = mechart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		DCDAF6A721E472AC006C50D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDAF7D221E477D8006C50D2 /* CLib2.h in Headers */,
+				DCDAF79821E477D7006C50D2 /* CControl.h in Headers */,
+				DCDAF7AD21E477D8006C50D2 /* CMenu.h in Headers */,
+				DCDAF7E221E477D8006C50D2 /* CPlotBase.h in Headers */,
+				DCDAF7DF21E477D8006C50D2 /* Div.h in Headers */,
+				DCDAF75821E477D7006C50D2 /* CProperty.h in Headers */,
+				DCDAF77521E477D7006C50D2 /* CYear.h in Headers */,
+				DCDAF7B621E477D8006C50D2 /* CTree.h in Headers */,
+				DCDAF78221E477D7006C50D2 /* CMenuItem.h in Headers */,
+				DCDAF75921E477D7006C50D2 /* CClients.h in Headers */,
+				DCDAF77021E477D7006C50D2 /* CBandedGridColumn.h in Headers */,
+				DCDAF7CA21E477D8006C50D2 /* CMonthButton.h in Headers */,
+				DCDAF7C721E477D8006C50D2 /* CToolTip.h in Headers */,
+				DCDAF75121E477D7006C50D2 /* CBandedGrid.h in Headers */,
+				DCDAF76821E477D7006C50D2 /* CCrossLine.h in Headers */,
+				DCDAF7AE21E477D8006C50D2 /* CLabel.h in Headers */,
+				DCDAF76B21E477D7006C50D2 /* CWindow.h in Headers */,
+				DCDAF7C821E477D8006C50D2 /* CYearDiv.h in Headers */,
+				DCDAF7DB21E477D8006C50D2 /* CTitleBar.h in Headers */,
+				DCDAF7C221E477D8006C50D2 /* CStr.h in Headers */,
+				DCDAF7E121E477D8006C50D2 /* CPExtend.h in Headers */,
+				DCDAF7C321E477D8006C50D2 /* CIndicator.h in Headers */,
+				DCDAF77421E477D7006C50D2 /* CYearButton.h in Headers */,
+				DCDAF7CB21E477D8006C50D2 /* CMathLib.h in Headers */,
+				DCDAF7DA21E477D8006C50D2 /* CDiv.h in Headers */,
+				DCDAF77321E477D7006C50D2 /* ToolTip.h in Headers */,
+				DCDAF77A21E477D7006C50D2 /* CChart.h in Headers */,
+				DCDAF7C921E477D8006C50D2 /* CMonth.h in Headers */,
+				DCDAF77121E477D7006C50D2 /* CGridColumn.h in Headers */,
+				DCDAF7D421E477D8006C50D2 /* CVScale.h in Headers */,
+				DCDAF7B221E477D8006C50D2 /* CCrossLineTip.h in Headers */,
+				DCDAF7E621E477D8006C50D2 /* CTableLayoutDiv.h in Headers */,
+				DCDAF7D521E477D8006C50D2 /* CGridCell.h in Headers */,
+				DCDAF75321E477D7006C50D2 /* CHScrollBar.h in Headers */,
+				DCDAF7B421E477D8006C50D2 /* CButton.h in Headers */,
+				DCDAF79021E477D7006C50D2 /* CTextBox.h in Headers */,
+				DCDAF7A821E477D8006C50D2 /* CList.h in Headers */,
+				DCDAF77F21E477D7006C50D2 /* CHeadDiv.h in Headers */,
+				DCDAF7A221E477D7006C50D2 /* CDay.h in Headers */,
+				DCDAF7B721E477D8006C50D2 /* CCheckBox.h in Headers */,
+				DCDAF7DD21E477D8006C50D2 /* CRadioButton.h in Headers */,
+				DCDAF6B121E472AC006C50D2 /* mechart.h in Headers */,
+				DCDAF78F21E477D7006C50D2 /* CPlot.h in Headers */,
+				DCDAF79D21E477D7006C50D2 /* CVScrollBar.h in Headers */,
+				DCDAF76A21E477D7006C50D2 /* CTimeDiv.h in Headers */,
+				DCDAF79E21E477D7006C50D2 /* CTreeNode.h in Headers */,
+				DCDAF7D721E477D8006C50D2 /* CBase64.h in Headers */,
+				DCDAF75421E477D7006C50D2 /* CGridBand.h in Headers */,
+				DCDAF7BE21E477D8006C50D2 /* CWindowFrame.h in Headers */,
+				DCDAF7C021E477D8006C50D2 /* CPaint.h in Headers */,
+				DCDAF78721E477D7006C50D2 /* CTable.h in Headers */,
+				DCDAF7CF21E477D8006C50D2 /* CLayoutDiv.h in Headers */,
+				DCDAF7B821E477D8006C50D2 /* CYears.h in Headers */,
+				DCDAF77B21E477D7006C50D2 /* CArrowButton.h in Headers */,
+				DCDAF7E521E477D8006C50D2 /* CHScale.h in Headers */,
+				DCDAF7DC21E477D8006C50D2 /* CDateTimePicker.h in Headers */,
+				DCDAF79521E477D7006C50D2 /* CSplitLayoutDiv.h in Headers */,
+				DCDAF7E821E477D8006C50D2 /* CMonthDiv.h in Headers */,
+				DCDAF78A21E477D7006C50D2 /* CDateTitle.h in Headers */,
+				DCDAF77221E477D7006C50D2 /* CBaseShape.h in Headers */,
+				DCDAF7E721E477D8006C50D2 /* CGridCellExtends.h in Headers */,
+				DCDAF7BA21E477D8006C50D2 /* CTabControl.h in Headers */,
+				DCDAF78421E477D7006C50D2 /* CTabPage.h in Headers */,
+				DCDAF7E321E477D8006C50D2 /* CSelectArea.h in Headers */,
+				DCDAF78921E477D7006C50D2 /* CNativeBase.h in Headers */,
+				DCDAF79F21E477D7006C50D2 /* CComboBox.h in Headers */,
+				DCDAF7D321E477D8006C50D2 /* CDayButton.h in Headers */,
+				DCDAF7EB21E48207006C50D2 /* CCalendar.h in Headers */,
+				DCDAF7B521E477D8006C50D2 /* CGrid.h in Headers */,
+				DCDAF76021E477D7006C50D2 /* CScaleGrid.h in Headers */,
+				DCDAF7C521E477D8006C50D2 /* CSpin.h in Headers */,
+				DCDAF77C21E477D7006C50D2 /* CGroupBox.h in Headers */,
+				DCDAF79421E477D7006C50D2 /* CGridRow.h in Headers */,
+				DCDAF79B21E477D7006C50D2 /* CDayDiv.h in Headers */,
+				DCDAF79621E477D7006C50D2 /* stdafx.h in Headers */,
+				DCDAF7DE21E477D8006C50D2 /* Enums.h in Headers */,
+				DCDAF77821E477D7006C50D2 /* CControlHost.h in Headers */,
+				DCDAF7C621E477D8006C50D2 /* CScrollBar.h in Headers */,
+				DCDAF7AB21E477D8006C50D2 /* CGridEnums.h in Headers */,
+				DCDAF7D021E477D8006C50D2 /* CClient.h in Headers */,
+				DCDAF7B921E477D8006C50D2 /* CLinkLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		DCDAF6AB21E472AC006C50D2 /* mechart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCDAF6B421E472AC006C50D2 /* Build configuration list for PBXNativeTarget "mechart" */;
+			buildPhases = (
+				DCDAF6A721E472AC006C50D2 /* Headers */,
+				DCDAF6A821E472AC006C50D2 /* Sources */,
+				DCDAF6A921E472AC006C50D2 /* Frameworks */,
+				DCDAF6AA21E472AC006C50D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mechart;
+			productName = mechart;
+			productReference = DCDAF6AC21E472AC006C50D2 /* mechart.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCDAF6A321E472AC006C50D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					DCDAF6AB21E472AC006C50D2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DCDAF6A621E472AC006C50D2 /* Build configuration list for PBXProject "mechart" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DCDAF6A221E472AC006C50D2;
+			productRefGroup = DCDAF6AD21E472AC006C50D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCDAF6AB21E472AC006C50D2 /* mechart */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCDAF6AA21E472AC006C50D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCDAF6A821E472AC006C50D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCDAF79121E477D7006C50D2 /* CStr.mm in Sources */,
+				DCDAF79221E477D7006C50D2 /* CWindowFrame.mm in Sources */,
+				DCDAF7A021E477D7006C50D2 /* CTable.mm in Sources */,
+				DCDAF7A521E477D7006C50D2 /* CBaseShape.mm in Sources */,
+				DCDAF78521E477D7006C50D2 /* CTextBox.mm in Sources */,
+				DCDAF76F21E477D7006C50D2 /* CYearDiv.mm in Sources */,
+				DCDAF78D21E477D7006C50D2 /* CChart.mm in Sources */,
+				DCDAF76121E477D7006C50D2 /* CMenu.mm in Sources */,
+				DCDAF76621E477D7006C50D2 /* CLabel.mm in Sources */,
+				DCDAF7D121E477D8006C50D2 /* Div.mm in Sources */,
+				DCDAF75C21E477D7006C50D2 /* CGridRow.mm in Sources */,
+				DCDAF76521E477D7006C50D2 /* CYearButton.mm in Sources */,
+				DCDAF75F21E477D7006C50D2 /* CControlHost.mm in Sources */,
+				DCDAF75721E477D7006C50D2 /* CDay.mm in Sources */,
+				7DA4117D2220507F002D7147 /* CClients.mm in Sources */,
+				DCDAF7D821E477D8006C50D2 /* CVScrollBar.mm in Sources */,
+				DCDAF79921E477D7006C50D2 /* CBandedGridColumn.mm in Sources */,
+				7DA4117B2220506C002D7147 /* CClient.mm in Sources */,
+				DCDAF78321E477D7006C50D2 /* CDayDiv.mm in Sources */,
+				DCDAF7C421E477D8006C50D2 /* CGridCellExtends.mm in Sources */,
+				DCDAF75D21E477D7006C50D2 /* CHeadDiv.mm in Sources */,
+				DCDAF78121E477D7006C50D2 /* CPaint.mm in Sources */,
+				DCDAF7B121E477D8006C50D2 /* CToolTip.mm in Sources */,
+				DCDAF7BB21E477D8006C50D2 /* CComboBox.mm in Sources */,
+				DCDAF75521E477D7006C50D2 /* CHScale.mm in Sources */,
+				DCDAF7E421E477D8006C50D2 /* CMathLib.mm in Sources */,
+				DCDAF77E21E477D7006C50D2 /* CGrid.mm in Sources */,
+				DCDAF7A721E477D8006C50D2 /* CScrollBar.mm in Sources */,
+				DCDAF7EC21E48208006C50D2 /* CCalendar.mm in Sources */,
+				DCDAF79C21E477D7006C50D2 /* CGridCell.mm in Sources */,
+				DCDAF7A621E477D8006C50D2 /* CMonthDiv.mm in Sources */,
+				DCDAF7C121E477D8006C50D2 /* CGridBand.mm in Sources */,
+				DCDAF7D921E477D8006C50D2 /* CSplitLayoutDiv.mm in Sources */,
+				DCDAF77621E477D7006C50D2 /* CGridColumn.mm in Sources */,
+				DCDAF7BD21E477D8006C50D2 /* CTabControl.mm in Sources */,
+				DCDAF7CD21E477D8006C50D2 /* CControl.mm in Sources */,
+				DCDAF7B321E477D8006C50D2 /* CScaleGrid.mm in Sources */,
+				DCDAF78621E477D7006C50D2 /* CTimeDiv.mm in Sources */,
+				DCDAF79321E477D7006C50D2 /* CHScrollBar.mm in Sources */,
+				DCDAF78821E477D7006C50D2 /* ToolTip.mm in Sources */,
+				DCDAF76421E477D7006C50D2 /* CDiv.mm in Sources */,
+				DCDAF77921E477D7006C50D2 /* CVScale.mm in Sources */,
+				DCDAF76721E477D7006C50D2 /* CNativeBase.mm in Sources */,
+				DCDAF77721E477D7006C50D2 /* CDayButton.mm in Sources */,
+				DCDAF7CC21E477D8006C50D2 /* CYear.mm in Sources */,
+				DCDAF7AF21E477D8006C50D2 /* CTreeNode.mm in Sources */,
+				DCDAF78B21E477D7006C50D2 /* CTree.mm in Sources */,
+				DCDAF76E21E477D7006C50D2 /* CTitleBar.mm in Sources */,
+				DCDAF7BC21E477D8006C50D2 /* CIndicator.mm in Sources */,
+				DCDAF79A21E477D7006C50D2 /* CDateTitle.mm in Sources */,
+				DCDAF75B21E477D7006C50D2 /* CDateTimePicker.mm in Sources */,
+				DCDAF75621E477D7006C50D2 /* CGroupBox.mm in Sources */,
+				DCDAF76D21E477D7006C50D2 /* CPExtend.mm in Sources */,
+				DCDAF79721E477D7006C50D2 /* CTableLayoutDiv.mm in Sources */,
+				DCDAF75E21E477D7006C50D2 /* CYears.mm in Sources */,
+				DCDAF7D621E477D8006C50D2 /* CCrossLineTip.mm in Sources */,
+				DCDAF7CE21E477D8006C50D2 /* CMenuItem.mm in Sources */,
+				DCDAF76C21E477D7006C50D2 /* CRadioButton.mm in Sources */,
+				DCDAF75A21E477D7006C50D2 /* CButton.mm in Sources */,
+				DCDAF7A121E477D7006C50D2 /* CMonthButton.mm in Sources */,
+				DCDAF78E21E477D7006C50D2 /* CTabPage.mm in Sources */,
+				DCDAF78C21E477D7006C50D2 /* CLayoutDiv.mm in Sources */,
+				DCDAF75021E477D7006C50D2 /* CWindow.mm in Sources */,
+				DCDAF78021E477D7006C50D2 /* CCheckBox.mm in Sources */,
+				DCDAF75221E477D7006C50D2 /* CSpin.mm in Sources */,
+				DCDAF76921E477D7006C50D2 /* CCrossLine.mm in Sources */,
+				DCDAF7A421E477D7006C50D2 /* CArrowButton.mm in Sources */,
+				DCDAF7AA21E477D8006C50D2 /* CMonth.mm in Sources */,
+				DCDAF7A921E477D8006C50D2 /* CBandedGrid.mm in Sources */,
+				DCDAF7BF21E477D8006C50D2 /* CPlot.mm in Sources */,
+				DCDAF76321E477D7006C50D2 /* CSelectArea.mm in Sources */,
+				DCDAF76221E477D7006C50D2 /* CPlotBase.mm in Sources */,
+				DCDAF7E021E477D8006C50D2 /* CLinkLabel.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DCDAF6B221E472AC006C50D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCDAF6B321E472AC006C50D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DCDAF6B521E472AC006C50D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = mechart;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = mechart/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.mechart;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCDAF6B621E472AC006C50D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALTERNATE_OWNER = mechart;
+				"ALTERNATE_OWNER[sdk=*]" = "$(INSTALL_OWNER)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = mechart/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = admin.mechart;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCDAF6A621E472AC006C50D2 /* Build configuration list for PBXProject "mechart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDAF6B221E472AC006C50D2 /* Debug */,
+				DCDAF6B321E472AC006C50D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCDAF6B421E472AC006C50D2 /* Build configuration list for PBXNativeTarget "mechart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDAF6B521E472AC006C50D2 /* Debug */,
+				DCDAF6B621E472AC006C50D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCDAF6A321E472AC006C50D2 /* Project object */;
+}
