@@ -178,7 +178,7 @@ namespace MeLib
 		
 	///////////////////////////////////////////////////////////	///////////////////////////////////////////////////////////////////////////////////
 
-	CandleShape::CandleShape()
+	CCandleShapeMe::CCandleShapeMe()
 	{
 		m_closeField = CTableMe::NULLFIELD();
 		m_closeFieldText = L"";
@@ -198,162 +198,162 @@ namespace MeLib
         m_zOrder = 1;
 	}
 
-	int CandleShape::GetCloseField()
+	int CCandleShapeMe::GetCloseField()
 	{
 		return m_closeField;
 	}
 		
-	void CandleShape::SetCloseField(int closeField)
+	void CCandleShapeMe::SetCloseField(int closeField)
 	{
 		m_closeField = closeField;
 	}
 	
-	String CandleShape::GetCloseFieldText()
+	String CCandleShapeMe::GetCloseFieldText()
 	{
 		return m_closeFieldText;
 	}
 	
-	void CandleShape::SetCloseFieldText(const String& closeFieldText)
+	void CCandleShapeMe::SetCloseFieldText(const String& closeFieldText)
 	{
 		m_closeFieldText = closeFieldText;
 	}
 	
-	int CandleShape::GetColorField()
+	int CCandleShapeMe::GetColorField()
 	{
 		return m_colorField;
 	}
 	
-	void CandleShape::SetColorField(int colorField)
+	void CCandleShapeMe::SetColorField(int colorField)
 	{
 		m_colorField = colorField;
 	}
 	
-	_int64 CandleShape::GetDownColor()
+	_int64 CCandleShapeMe::GetDownColor()
 	{
 		return m_downColor;
 	}
 	
-	void CandleShape::SetDownColor(_int64 downColor)
+	void CCandleShapeMe::SetDownColor(_int64 downColor)
 	{
 		m_downColor = downColor;
 	}
 	
-	int CandleShape::GetHighField()
+	int CCandleShapeMe::GetHighField()
 	{
 		return m_highField;
 	}
 		
-	void CandleShape::SetHighField(int highField)
+	void CCandleShapeMe::SetHighField(int highField)
 	{
 		m_highField = highField;
 	}
 	
-	String CandleShape::GetHighFieldText()
+	String CCandleShapeMe::GetHighFieldText()
 	{
 		return m_highFieldText;
 	}
 	
-	void CandleShape::SetHighFieldText(const String& highFieldText)
+	void CCandleShapeMe::SetHighFieldText(const String& highFieldText)
 	{
 		m_highFieldText = highFieldText;
 	}
 	
-	int CandleShape::GetLowField()
+	int CCandleShapeMe::GetLowField()
 	{
 		return m_lowField;
 	}
 	
-	void CandleShape::SetLowField(int lowField)
+	void CCandleShapeMe::SetLowField(int lowField)
 	{
 		m_lowField = lowField;
 	}
 	
-	String CandleShape::GetLowFieldText()
+	String CCandleShapeMe::GetLowFieldText()
 	{
 		return m_lowFieldText;
 	}
 	
-	void CandleShape::SetLowFieldText(const String& lowFieldText)
+	void CCandleShapeMe::SetLowFieldText(const String& lowFieldText)
 	{
 		m_lowFieldText = lowFieldText;
 	}
 	
-	int CandleShape::GetOpenField()
+	int CCandleShapeMe::GetOpenField()
 	{
 		return m_openField;
 	}
 	
-	void CandleShape::SetOpenField(int openField)
+	void CCandleShapeMe::SetOpenField(int openField)
 	{
 		m_openField = openField;
 	}
 	
-	String CandleShape::GetOpenFieldText()
+	String CCandleShapeMe::GetOpenFieldText()
 	{
 		return m_openFieldText;
 	}
 	
-	void CandleShape::SetOpenFieldText(const String& openFieldText)
+	void CCandleShapeMe::SetOpenFieldText(const String& openFieldText)
 	{
 		m_openFieldText = openFieldText;
 	}
 	
-	bool CandleShape::GetShowMaxMin()
+	bool CCandleShapeMe::GetShowMaxMin()
 	{
 		return m_showMaxMin;
 	}
 	
-	void CandleShape::SetShowMaxMin(bool showMaxMin)
+	void CCandleShapeMe::SetShowMaxMin(bool showMaxMin)
 	{
 		m_showMaxMin = showMaxMin;
 	}
 	
-	CandleStyle CandleShape::GetStyle()
+	CandleStyle CCandleShapeMe::GetStyle()
 	{
 		return m_style;
 	}
 	
-	void CandleShape::SetStyle(CandleStyle style)
+	void CCandleShapeMe::SetStyle(CandleStyle style)
 	{
 		m_style = style;
 	}
 	
-	int CandleShape::GetStyleField()
+	int CCandleShapeMe::GetStyleField()
 	{
 		return m_styleField;
 	}
 	
-	void CandleShape::SetStyleField(int styleField)
+	void CCandleShapeMe::SetStyleField(int styleField)
 	{
 		m_styleField = styleField;
 	}
 		
-	_int64 CandleShape::GetTagColor()
+	_int64 CCandleShapeMe::GetTagColor()
 	{
 		return m_tagColor;
 	}
 	
-	void CandleShape::SetTagColor(_int64 tagColor)
+	void CCandleShapeMe::SetTagColor(_int64 tagColor)
 	{
 		m_tagColor = tagColor;
 	}
 	
-	_int64 CandleShape::GetUpColor()
+	_int64 CCandleShapeMe::GetUpColor()
 	{
 		return m_upColor;
 	}
 	
-	void CandleShape::SetUpColor(_int64 upColor)
+	void CCandleShapeMe::SetUpColor(_int64 upColor)
 	{
 		m_upColor = upColor;
 	}
 	
-	int CandleShape::GetBaseField()
+	int CCandleShapeMe::GetBaseField()
 	{
 		return m_closeField;
 	}
 	
-	String CandleShape::GetFieldText(int fieldName)
+	String CCandleShapeMe::GetFieldText(int fieldName)
 	{
 		return fieldName == m_closeField ? GetCloseFieldText() :
 			(fieldName == m_highField ? GetHighFieldText() : (
@@ -361,7 +361,7 @@ namespace MeLib
 			fieldName == m_openField ? GetOpenFieldText() : L"")));
 	}
 	
-	int* CandleShape::GetFields(int *length)
+	int* CCandleShapeMe::GetFields(int *length)
 	{
 		*length = 4;
 		int *fields = new int[4];
@@ -372,7 +372,7 @@ namespace MeLib
 		return fields;
 	}
 	
-	void CandleShape::GetProperty(const String& name, String *value, String *type)
+	void CCandleShapeMe::GetProperty(const String& name, String *value, String *type)
 	{
 		String szName = CStrMe::ToLower(name);
 		
@@ -473,7 +473,7 @@ namespace MeLib
         }
 	}
 	
-	vector<String> CandleShape::GetPropertyNames()
+	vector<String> CCandleShapeMe::GetPropertyNames()
 	{
 		vector<String> propertyNames;
 		propertyNames.push_back(L"CloseField");
@@ -493,12 +493,12 @@ namespace MeLib
         return propertyNames;
 	}
 	
-	_int64 CandleShape::GetSelectedColor()
+	_int64 CCandleShapeMe::GetSelectedColor()
 	{
 		return m_downColor;
 	}
 	
-	void CandleShape::SetProperty(const String& name, const String& value)
+	void CCandleShapeMe::SetProperty(const String& name, const String& value)
 	{
 		String szName = CStrMe::ToLower(name);
 		if(szName == L"closefield")
@@ -876,7 +876,7 @@ namespace MeLib
 
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	PolylineShape::PolylineShape()
+	CPolylineShapeMe::CPolylineShapeMe()
 	{
 		m_color = COLOR::ARGB(255, 255, 255);
 		m_colorField = CTableMe::NULLFIELD();
@@ -888,87 +888,87 @@ namespace MeLib
         SetZOrder(2);
 	}
 	
-	_int64 PolylineShape::GetColor()
+	_int64 CPolylineShapeMe::GetColor()
 	{
 		return m_color;
 	}
 	
-	void PolylineShape::SetColor(_int64 color)
+	void CPolylineShapeMe::SetColor(_int64 color)
 	{
 		m_color = color;
 	}
 
-	int PolylineShape::GetColorField()
+	int CPolylineShapeMe::GetColorField()
 	{
 		return m_colorField;
 	}
 
-	void PolylineShape::SetColorField(int colorField)
+	void CPolylineShapeMe::SetColorField(int colorField)
 	{
 		m_colorField = colorField;
 	}
 	
-	int PolylineShape::GetFieldName()
+	int CPolylineShapeMe::GetFieldName()
 	{
 		return m_fieldName;
 	}
 	
-	void PolylineShape::SetFieldName(int fieldName)
+	void CPolylineShapeMe::SetFieldName(int fieldName)
 	{
 		m_fieldName = fieldName;
 	}
 	
-	String PolylineShape::GetFieldText()
+	String CPolylineShapeMe::GetFieldText()
 	{
 		return m_fieldText;
 	}
 	
-	void PolylineShape::SetFieldText(const String& fieldText)
+	void CPolylineShapeMe::SetFieldText(const String& fieldText)
 	{
 		m_fieldText = fieldText;
 	}
 	
-	_int64 PolylineShape::GetFillColor()
+	_int64 CPolylineShapeMe::GetFillColor()
 	{
 		return m_fillColor;
 	}
 	
-	void PolylineShape::SetFillColor(_int64 fillColor)
+	void CPolylineShapeMe::SetFillColor(_int64 fillColor)
 	{
 		m_fillColor = fillColor;
 	}
 	
-	PolylineStyle PolylineShape::GetStyle()
+	PolylineStyle CPolylineShapeMe::GetStyle()
 	{
 		return m_style;
 	}
 	
-	void PolylineShape::SetStyle(PolylineStyle style)
+	void CPolylineShapeMe::SetStyle(PolylineStyle style)
 	{
 		m_style = style;
 	}
 	
-	float PolylineShape::GetWidth()
+	float CPolylineShapeMe::GetWidth()
 	{
 		return m_width;
 	}
 
-	void PolylineShape::SetWidth(float width)
+	void CPolylineShapeMe::SetWidth(float width)
 	{
 		m_width = width;
 	}
 
-	int PolylineShape::GetBaseField()
+	int CPolylineShapeMe::GetBaseField()
 	{
 		return m_fieldName;
 	}
 	
-	String PolylineShape::GetFieldText(int fieldName)
+	String CPolylineShapeMe::GetFieldText(int fieldName)
 	{
         return fieldName == m_fieldName ? GetFieldText() : L"";
 	}
 	
-	int* PolylineShape::GetFields(int *length)
+	int* CPolylineShapeMe::GetFields(int *length)
 	{
 		*length = 1;
 		int *fields = new int[1];
@@ -976,7 +976,7 @@ namespace MeLib
 		return fields;
 	}
 	
-	void PolylineShape::GetProperty(const String& name, String *value, String *type)
+	void CPolylineShapeMe::GetProperty(const String& name, String *value, String *type)
 	{
 		String szName = CStrMe::ToLower(name);		
 		if(szName == L"color")
@@ -1036,7 +1036,7 @@ namespace MeLib
         }
 	}
 
-	vector<String> PolylineShape::GetPropertyNames()
+	vector<String> CPolylineShapeMe::GetPropertyNames()
 	{
 		vector<String> propertyNames;
 		propertyNames.push_back(L"Color");
@@ -1049,12 +1049,12 @@ namespace MeLib
         return propertyNames;
 	}
 
-	_int64 PolylineShape::GetSelectedColor()
+	_int64 CPolylineShapeMe::GetSelectedColor()
 	{
 		return m_color;
 	}
 
-	void PolylineShape::SetProperty(const String& name, const String& value)
+	void CPolylineShapeMe::SetProperty(const String& name, const String& value)
 	{
 		String szName = CStrMe::ToLower(name);		
 		if(szName == L"color")
@@ -1109,7 +1109,7 @@ namespace MeLib
 	
 	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-	TextShape::TextShape()
+	CTextShapeMe::CTextShapeMe()
 	{
 		m_colorField = CTableMe::NULLFIELD();
 		m_fieldName = CTableMe::NULLFIELD();
@@ -1119,7 +1119,7 @@ namespace MeLib
 		SetZOrder(4);
 	}
 	
-	TextShape::~TextShape()
+	CTextShapeMe::~CTextShapeMe()
 	{
 		if(m_font)
 		{
@@ -1128,67 +1128,67 @@ namespace MeLib
 		m_font = 0;
 	}
 	
-	int TextShape::GetColorField()
+	int CTextShapeMe::GetColorField()
 	{
 		return m_colorField;
 	}
 	
-	void TextShape::SetColorField(int colorField)
+	void CTextShapeMe::SetColorField(int colorField)
 	{
 		m_colorField = colorField;
 	}
 	
-	int TextShape::GetFieldName()
+	int CTextShapeMe::GetFieldName()
 	{
 		return m_fieldName;
 	}
 	
-	void TextShape::SetFieldName(int fieldName)
+	void CTextShapeMe::SetFieldName(int fieldName)
 	{
 		m_fieldName = fieldName;
 	}
 	
-	FONT* TextShape::GetFont()
+	FONT* CTextShapeMe::GetFont()
 	{
 		return m_font;
 	}
 	
-	void TextShape::SetFont(FONT *font)
+	void CTextShapeMe::SetFont(FONT *font)
 	{
 		m_font->Copy(font);
 	}
 	
-	_int64 TextShape::GetForeColor()
+	_int64 CTextShapeMe::GetForeColor()
 	{
 		return m_foreColor;
 	}
 	
-	void TextShape::SetForeColor(_int64 foreColor)
+	void CTextShapeMe::SetForeColor(_int64 foreColor)
 	{
 		m_foreColor = foreColor;
 	}
 	
-	int TextShape::GetStyleField()
+	int CTextShapeMe::GetStyleField()
 	{
 		return m_styleField;
 	}
 
-	void TextShape::SetStyleField(int styleField)
+	void CTextShapeMe::SetStyleField(int styleField)
 	{
 		m_styleField = styleField;
 	}
 	
-	String TextShape::GetText()
+	String CTextShapeMe::GetText()
 	{
 		return m_text;
 	}
 	
-	void TextShape::SetText(const String& text)
+	void CTextShapeMe::SetText(const String& text)
 	{
 		m_text = text;
 	}
 	
-	void TextShape::GetProperty(const String& name, String *value, String *type)
+	void CTextShapeMe::GetProperty(const String& name, String *value, String *type)
 	{
 		String szName = CStrMe::ToLower(name);
 		
@@ -1228,7 +1228,7 @@ namespace MeLib
 		}
 	}
 	
-	vector<String> TextShape::GetPropertyNames()
+	vector<String> CTextShapeMe::GetPropertyNames()
 	{
 		 vector<String> propertyNames;
 		 propertyNames.push_back(L"ColorField");
@@ -1240,7 +1240,7 @@ namespace MeLib
 		return propertyNames;
 	}
 	
-	void TextShape::SetProperty(const String& name, const String& value)
+	void CTextShapeMe::SetProperty(const String& name, const String& value)
 	{
 		String szName = CStrMe::ToLower(name);
 		
